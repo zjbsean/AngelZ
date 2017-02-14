@@ -1,3 +1,6 @@
 .vscode
 pkg
 bin
+/src/tests/self-logger-test/debug
+/src/tests/chanrpc-test/debug
+/src/tests/reflect-test/debug
