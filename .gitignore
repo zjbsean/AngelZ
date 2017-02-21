@@ -4,3 +4,6 @@ bin
 /src/tests/self-logger-test/debug
 /src/tests/chanrpc-test/debug
 /src/tests/reflect-test/debug
+/bin/selfloggertest/Log/test.log.2016-11-24 21
+/bin/selfloggertest/Log/test.log
+/bin/selfloggertest/Log/testHour.log
