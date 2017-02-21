@@ -7,9 +7,9 @@ import (
 )
 
 func EnumTest() {
-	var e bytearrayflag.BufferFlag
-	e = bytearrayflag.HadEncrypt
-	fmt.Println(bytearrayflag.GetInstance().TestFlag(e, bytearrayflag.HadEncrypt))
+	var e bufferflag.BufferFlag
+	e = bufferflag.HadEncrypt
+	fmt.Println(bufferflag.GetInstance().TestFlag(e, bufferflag.HadEncrypt))
 
 	var i int = 0x00331201
 	pi := unsafe.Pointer(&i)
