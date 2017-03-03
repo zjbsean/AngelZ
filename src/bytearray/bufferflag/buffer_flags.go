@@ -9,11 +9,12 @@ type BufferFlag byte
 
 const (
 	_          BufferFlag = 0x00
-	HadEncrypt            = 0x01
-	HadCompres            = 0x02
+	HadEncrypt            = 0x01 //加密
+	HadCompres            = 0x02 //压缩
+	BigEndian             = 0x04 //大端
 
-	CARRIER  = 0x10
-	PROTOCOL = 0x20
+	CARRIER  = 0x10 //数据载体
+	PROTOCOL = 0x20 //协议载体
 )
 
 type BufferFlagHelper struct{}

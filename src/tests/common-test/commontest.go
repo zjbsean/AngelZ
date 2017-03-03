@@ -3,5 +3,5 @@ package main
 import "tests/common-test/testlogic"
 
 func main() {
-	testlogic.SleceTest()
+	testlogic.Bytesbufftest_1()
 }
